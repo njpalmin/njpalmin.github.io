@@ -3,10 +3,30 @@ body {
 }
 
 .footer {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 40px;
-  border-top: 1px solid #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: transparent;
+  background-color: #5BC0DE;
+  height: 140px;
+}
+
+#footerlogo{
+	background: transparent url("image/bg.jpg") center;
+	opacity: 0.9;
+	background-size: contain;
+	width: 150px;
+	height: 70px;
+	margin: 0 auto;
+	margin-top: 1px;
+}
+
+#dividen {
+	border: 1px solid #CCC;
+	margin-top: 3px;
+}
+
+#copyright {
+	text-align:center;
 }
 
 /* Main marketing message and sign up button */
@@ -14,6 +34,12 @@ body {
   text-align: center;
   background-color: transparent;
 }
+
+img{
+	opacity:0.2;
+	max-width: 100%;
+}
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
